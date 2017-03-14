@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.0;net452</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\xunit.assert\xunit.assert.csproj" />
+    <ProjectReference Include="..\..\src\xunit.core\xunit.core.csproj" />
+    <ProjectReference Include="..\..\src\xunit.execution\xunit.execution.csproj" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="99.99.99-dev" />
+  </ItemGroup>
+
+</Project>
